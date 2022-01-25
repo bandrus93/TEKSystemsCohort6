@@ -1,0 +1,80 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.navBar, .footer {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.navBar p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #033fb4;
+}
+
+.navBar button {
+    background-color: #033fb4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 75px;
+    width: 200px;
+}
+
+.mainContent {
+    list-style-type: none;
+    width: fit-content;
+    margin: auto;
+}
+
+ul li img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.custAvatar {
+    margin-left: 2rem;
+}
+
+.ygpAvatar {
+    margin-right: 2rem;
+}
+
+ul li div {
+    display: inline-block;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.qContainer {
+    background-color: #7fa53f;
+}
+
+.aContainer {
+    background-color: #033fb4;
+}
+
+.footer {
+    background-color: #F1F2F3;
+    margin-bottom: none;
+}
